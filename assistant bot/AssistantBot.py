@@ -1,4 +1,10 @@
-from assistant_functions import*
+from AssistantFunctions import*
+from Name import*
+from Field import*
+from Phone import*
+from Record import*
+from AddressBook import*
+
 
 def main():
     contacts = {}
@@ -22,6 +28,7 @@ def main():
             print(show_all_contacts(contacts))
         else:
             print('Invalid command.')
+
 
 if __name__ == '__main__':
     main()
